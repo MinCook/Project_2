@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color1: #8563EE;
+    --color2: #FF589E;
+    --color3: #CCCCCC;
+    --color4: #F2F2FE;
+    --font1: 'DM Sans', sans-serif;
+    --fontsize1: 25.6px;
+    --fontsize2: 17.6px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;    
+  }
+
+  p{
+   max-width: 540px;
+    margin: 0px;
+    padding: 0px;
+  }
+ h1{
+   max-width: 540px;
+
+ }
+ a {
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+ }
+ 
+ ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+ }
+ h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ span{
+   margin: 0;
+   padding: 0;
+ }
+
+ .button:hover{
+    cursor: pointer;
+}
